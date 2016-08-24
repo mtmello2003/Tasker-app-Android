@@ -1,0 +1,146 @@
+<TaskerData sr="" dvi="1" tv="4.8u5m">
+	<Task sr="task12">
+		<cdate>1471720090553</cdate>
+		<edate>1472059997196</edate>
+		<id>12</id>
+		<nme>Shake</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>61</code>
+			<Int sr="arg0" val="200"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>2146575103</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<CaptureMode>0</CaptureMode>
+					<CaptureMode-type>java.lang.String</CaptureMode-type>
+					<CatpureAudio>true</CatpureAudio>
+					<CatpureAudio-type>java.lang.Boolean</CatpureAudio-type>
+					<CatpureScreenshot>/storage/emulated/0/AutoInput/SCR%DATE%TIME.png</CatpureScreenshot>
+					<CatpureScreenshot-type>java.lang.String</CatpureScreenshot-type>
+					<CompareTo>&lt;null&gt;</CompareTo>
+					<CompareTo-type>java.lang.String</CompareTo-type>
+					<Crop>&lt;null&gt;</Crop>
+					<Crop-type>java.lang.String</Crop-type>
+					<Duration>30</Duration>
+					<Duration-type>java.lang.String</Duration-type>
+					<File>/storage/emulated/0/AutoInput/screencapture.mp4</File>
+					<File-type>java.lang.String</File-type>
+					<Palette>false</Palette>
+					<Palette-type>java.lang.Boolean</Palette-type>
+					<PixelColor>&lt;null&gt;</PixelColor>
+					<PixelColor-type>java.lang.String</PixelColor-type>
+					<Resolution>2</Resolution>
+					<Resolution-type>java.lang.String</Resolution-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Screenshot Path: /storage/emulated/0/AutoInput/SCR%DATE%TIME.png
+Palette: false
+Get Average Color : false</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%aifiles()
+File Paths
+File Paths of the selected files.&amp;lt;br/&amp;gt;Will contain only the selected files (video or screenshot)&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%aiscreenshotfile
+Screenshot Path
+Path where the screenshot was saved&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%aivideofile
+Video Path
+Path where the video of the screen capture was saved&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>FieldsToGet CompareTo PixelColor Crop CaptureMode Resolution Bitrate File Duration CatpureScreenshot plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>f2d4e670-c124-4782-afd3-e8823a1c4caa</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autoinput.intent.IntentScreenCapture</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autoinput</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autoinput.activity.ActivityConfigScreenCapture</Str>
+			<Int sr="arg3" val="200"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>551</code>
+			<Str sr="arg0" ve="3">Tela capturada</Str>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3">IconAndTextMenu</Str>
+			<Int sr="arg3" val="10"/>
+			<Int sr="arg4" val="1"/>
+			<ListElementItem sr="item0">
+				<label>Visualizar</label>
+				<Action sr="action" ve="7">
+					<code>102</code>
+					<Str sr="arg0" ve="3">%aiscreenshotfile</Str>
+					<Str sr="arg1" ve="3">image</Str>
+				</Action>
+				<Img sr="icon" ve="2">
+					<cls>com.sec.android.gallery3d.app.GalleryOpaqueActivity</cls>
+					<pkg>com.sec.android.gallery3d</pkg>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item1">
+				<label>Apagar</label>
+				<Action sr="action" ve="7">
+					<code>406</code>
+					<Str sr="arg0" ve="3">%aiscreenshotfile</Str>
+					<Int sr="arg1" val="0"/>
+					<Int sr="arg2" val="0"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>cust_warning</nme>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item2">
+				<label>OK</label>
+				<sel>true</sel>
+				<Action sr="action" ve="7">
+					<code>548</code>
+					<Str sr="arg0" ve="3">fim</Str>
+					<Int sr="arg1" val="0"/>
+					<ConditionList sr="if">
+						<Condition sr="c0" ve="3">
+							<lhs>1</lhs>
+							<op>0</op>
+							<rhs>2</rhs>
+						</Condition>
+					</ConditionList>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>cust_profile_enter_light</nme>
+				</Img>
+			</ListElementItem>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Tela foi capturada e salva em %aiscreenshotfile</Str>
+			<Int sr="arg1" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%tap_index</lhs>
+					<op>2</op>
+					<rhs>3</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Arquivo capturado foi apagado.</Str>
+			<Int sr="arg1" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%tap_index</lhs>
+					<op>2</op>
+					<rhs>2</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Img sr="icn" ve="2">
+			<cls>net.dinglisch.android.taskerm.Tasker</cls>
+			<pkg>net.dinglisch.android.taskerm</pkg>
+		</Img>
+	</Task>
+</TaskerData>
