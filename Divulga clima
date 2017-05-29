@@ -1,0 +1,43 @@
+<TaskerData sr="" dvi="1" tv="4.9u4m">
+	<Task sr="task4">
+		<cdate>1494548034670</cdate>
+		<edate>1496079513125</edate>
+		<id>4</id>
+		<nme>Divulga Clima</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Atualiza Clima</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>536</code>
+			<Str sr="arg0" ve="3">%tLocal</Str>
+			<Str sr="arg1" ve="3">Maxima %tMax. Minima %tMin. Condição %tCond. Nesse momento %tAtual graus</Str>
+			<Img sr="arg2" ve="2">
+				<nme>hd_action_about</nme>
+			</Img>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>559</code>
+			<Str sr="arg0" ve="3">%tLocal. Maxima %tMax. Minima %tMin. Condição %tCond. Nesse momento %tAtual graus</Str>
+			<Str sr="arg1" ve="3">default:default</Str>
+			<Int sr="arg2" val="3"/>
+			<Int sr="arg3" val="5"/>
+			<Int sr="arg4" val="6"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>
